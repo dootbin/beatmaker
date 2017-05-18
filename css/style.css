@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #FFC100;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
+small {
+  padding-top: 30px;
+}
+
+.button {
+    background-color: #000000;
+    border-color: #000000;
+    border: 2px solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-transform: lowercase;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.button:hover {
+  background-color: #FFC100;
+}
+.buttonStart {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-color: #4CAF50;
+}
+
+.buttonStart:hover {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+.buttonPlay {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-color: #008CBA;
+}
+
+.buttonPlay:hover {
+    background-color: #008CBA;
+    color: #FFFFFF;
+}
+
+.buttonStopBeat {
+  background-color: #F44336;
+  color: #FFFFFF;
+  border-color: #F44336;
+}
+
+.buttonStopBeat:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.buttonStop {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-color: #F44336;
+}
+
+.buttonStop:hover {
+    background-color: #F44336;
+    color: #FFFFFF;
+}
+
+.buttonLoopBeat {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-color:  #FFC100;
+}
+
+.buttonLoopBeat:hover {
+  background-color: #FFC100;
+  color: #FFFFFF;
+}
+
+.buttonClearBeat {
+  background-color: #FF8D00;
+  color: #FFFFFF;
+  border-color: #FF8D00;
+}
+
+.buttonClearBeat:hover {
+  background-color: #000000;
+  color: #FF8D00;
+}
+
+#wrapper  {
+  max-width: 1420px;
+  width:85%;
+  margin: auto;
+  box-shadow: 3px 3px 5px #000000;
+}
+
+#gui {
+  width: 50%;
+  margin:auto;
+}
